@@ -151,7 +151,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.4.19":
+"@next/env@npm:13.4.19, @next/env@npm:^13.4.19":
   version: 13.4.19
   resolution: "@next/env@npm:13.4.19"
   checksum: ace4f82890954ade0164fbe2b7ff988268d2b99b2e80caa6707c51fa4cbfaaa31e48fbbcecd4fd142af3503c544e1b4c91e8185d4af253c8fb46550e9e70ad7e
@@ -4058,6 +4058,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "weather_map@workspace:."
   dependencies:
+    "@next/env": ^13.4.19
     "@types/node": 20.5.7
     "@types/react": 18.2.21
     "@types/react-dom": 18.2.7
